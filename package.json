@@ -1,0 +1,30 @@
+{
+  "name": "model-validator",
+  "version": "0.0.0",
+  "description": "Validates an object's properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smartsource/model-validator.git"
+  },
+  "keywords": [
+    "model",
+    "validation"
+  ],
+  "author": "Sean Cain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartsource/model-validator/issues"
+  },
+  "homepage": "https://github.com/smartsource/model-validator",
+  "devDependencies": {
+    "mocha": "^1.19.0",
+    "should": "^3.3.1"
+  },
+  "dependencies": {
+    "validator": "^3.12.0"
+  }
+}
